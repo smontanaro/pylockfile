@@ -36,7 +36,7 @@ master_doc = 'lockfile'
 
 # General substitutions.
 project = 'lockfile'
-copyright = '2008, Skip Montanaro'
+copyright = '2014, Skip Montanaro'
 
 # The default replacements for |version| and |release|, also used in various
 # other places throughout the built documents.
