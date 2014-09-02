@@ -235,7 +235,7 @@ To use this with Python 2.4, you can execute::
     print lock.path, 'is locked.'
     lock.release()
 
-If you don't want to wait forever, you might try::	
+If you don't want to wait forever, you might try::
 
     from lockfile import LockFile
     lock = LockFile("/some/file/or/other")
@@ -269,8 +269,9 @@ with :mod:`lockfile`.  There are a number of other libraries available:
 * zc.lockfile - http://pypi.python.org/pypi/zc.lockfile
 
 
-Contacting the Author
----------------------
+Reporting Bugs
+--------------
 
-If you encounter any problems with ``lockfile``, would like help or want to
-submit a patch, contact me directly: Skip Montanaro (skip@pobox.com).
+If you encounter any problems with ``lockfile``, would like help or
+want to submit a patch, please open a case on Github:
+https://github.com/smontanaro/pylockfile/issues
